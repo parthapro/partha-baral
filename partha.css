@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: wheat;
+    font-family:'Roboto', sans-serif;
+}
+.container{
+    background-color:cadetblue;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+
+.partha{
+    width: 100px;
+    height: 120px;
+    border-radius:50px;
+    float: left;
+    }
+ .name{
+float: left;
+   padding: 30px;
+     
+ } 
+ .contact{
+     float: right;
+     padding: 30px;
+ }  
+ a{
+     text-decoration: none;
+     font-weight: bold;
+     color: darkred;
+ }
+ a:hover{
+     text-decoration: underline;
+     color:whitesmoke;
+ }
+ .clear_div{
+     clear: both;
+ }
+ hr{
+     border: 3px solid beige;
+     padding:20px auto;
+     border-bottom: none;
+     width: 100%;
+     margin-top: 10px;
+ }
+ .content{
+     margin-bottom: 20px;
+ }
+ 
+ .right{
+width: 70%;
+float: left;
+ }
+ .left{
+width: 30%;
+float: left;
+ }
+ .common_hr{
+     width: 100%;
+     margin: 20px auto;
+     border: 1px solid navy;
+ }
+ .edu1{
+     float: left;
+     width: 45%;
+ }
+ .edu2{
+    float: right;
+    width: 45%;
+}
+.last{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    
+   
+}
+#cd{
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+    margin-top: 30px;
+}
+#cd:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+#dd{
+    text-align: center; 
+    padding: 20px;
+   margin-top: 20px;
+}
